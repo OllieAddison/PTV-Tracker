@@ -1,0 +1,14 @@
+{
+  "name": "qgis2web-export",
+  "version": "1.0.0",
+  "description": "Local static server for qgis2web OpenLayers export with GTFS realtime proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd \"$(npm prefix)\" && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4",
+    "gtfs-realtime-bindings": "^1.1.1",
+    "node-fetch": "^2.6.12"
+  }
+}

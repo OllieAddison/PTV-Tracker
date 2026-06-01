@@ -1,0 +1,14 @@
+{
+  "name": "qgis2web-gtfs-realtime-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for GTFS Realtime feeds used by a qgis2web map",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4",
+    "gtfs-realtime-bindings": "^1.1.1",
+    "node-fetch": "^2.6.12"
+  }
+}

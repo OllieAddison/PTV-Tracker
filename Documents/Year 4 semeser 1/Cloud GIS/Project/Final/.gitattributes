@@ -1,0 +1,1 @@
+qgis2web_* filter=lfs diff=lfs merge=lfs -text
